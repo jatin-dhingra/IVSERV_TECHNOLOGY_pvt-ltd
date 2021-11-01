@@ -1,0 +1,157 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.service-container
+{
+    /* border:1px solid black; */
+    width:100%;
+    
+      
+}
+
+.service-container .ourservice
+{
+    text-align: center;
+    font-size: 35px;
+    /* border:2px solid black; */
+    margin:0 30px;  
+    display: flex;
+    font-weight: bold;
+    flex-direction: column; 
+}
+.ourservice p
+{
+    margin:20px 0;
+}
+
+
+
+
+.rowimg
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    /* border: 1px solid palegreen; */
+    width:100%;
+    height:auto;
+    margin:5px 0; 
+}
+
+.rowimg .one
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width:100%;
+    margin:20px 0;
+    /* border: 1px solid orange; */
+    /* width:100%;
+    height:100vh; */
+}
+
+.one .column
+{
+    /*  */
+    /* border:1px solid black; */
+    margin:0 5px;
+}
+/* 
+.rowimg .one .column 
+{
+    transform: translateY(5px);
+} */
+
+.rowimg .one .column
+{
+    transition:all .5s;
+}
+.rowimg .one .column:hover
+{
+    cursor: pointer;
+    transform: translateY(10px);
+}
+
+
+/* .rowimg::after
+{
+    content:'';
+    display:table;
+    clear:both;
+} */
+
+.rowimg .column img
+{
+    height: 284;
+    width:187;
+    background-color: brown;
+}
+
+div.column
+{
+    background-color: whitesmoke;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 0.5em 0.5em -0.3em black;
+  margin-bottom: 25px;
+}
+div.container
+{
+    text-align: center;
+  padding: 10px 20px;
+  
+} 
+@media (max-width: 800px) 
+{
+        
+.rowimg
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    /* border: 1px solid palegreen; */
+    
+    margin:10px 0;
+}
+
+.rowimg .one
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:250px;
+    margin:10px 0;
+    /* border: 1px solid orange; */
+    /* width:100%;
+    height:100vh; */
+}
+.one .column
+{
+    /* float:left;
+    width:33.33%;
+    padding:5px; */
+    /* margin:0 10px; */
+    /* border:1px solid black; */
+    margin:10px 0;
+}
+
+}
+
+.manymore
+{
+    text-align: center;
+    font-size: 25px;
+    margin:10px 0;
+    padding:20px;
+    font-weight: bold;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
+
+

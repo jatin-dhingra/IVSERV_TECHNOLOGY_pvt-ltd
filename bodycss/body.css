@@ -243,8 +243,9 @@ body {
     /* background-color: pink; */
     
     padding-bottom: 7%;
-    background-image:url('/img/office.jpg');
+/*     background-image:url('/img/office.jpg'); */
     background-size: cover;
+    background-color:orange;
  
     
     

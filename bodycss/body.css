@@ -153,9 +153,21 @@ body {
 
 .about-content .inside-content2
 {
-    padding:0 40px;
-    font-size:30px;
+    padding:1em 10em;
+    font-size:25px;
 }
+.about-content .inside-content11
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align: center;
+
+}
+.inside-content11 img{
+    width: 90%;
+}
+
 
 .inside-content3
 {
@@ -197,13 +209,19 @@ body {
     cursor: pointer;
     cursor: pointer;
     
-    box-shadow: 0 0.5em 0.5em -0.4em #ffd60a;
-    color:#ffd60a;
-    transform:translateY(-.2em);
-    
-   
-    
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    color:white;
+    /* transform:translateY(-.2em); */
 } 
+
+@media (max-width: 800px) 
+{
+    .about-content .inside-content2
+{
+    padding:1em 4em;
+    font-size:25px;
+}
+}
 
 /* ------------------------------------------ */
 
@@ -222,10 +240,10 @@ body {
 } */
 #allcontent{
   
-    background-color:black;
+    /* background-color: pink; */
     
     padding-bottom: 7%;
-    background-image:url('img/leader.jpg');
+    background-image:url('/img/office.jpg');
     background-size: cover;
  
     
@@ -267,14 +285,15 @@ body {
     margin:30px 25px;
     padding:2%;
     text-align:center;
-    border:3px solid #f1faee;
+    border:3px solid rgb(218, 58, 18);
     border-radius: 10px;
     color:white;
+    background-color:rgba(218, 58, 18, 0.5);
     
     font-weight:bold;
     transition:all .5s ease-out;
-    background-color: transparent;
-    
+    /* background-color: transparent;
+     */
 }
 
 #contentmain .content1:hover

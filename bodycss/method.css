@@ -1,0 +1,100 @@
+.methodtype{
+    
+    background-color:#e76f51;
+    padding:2em;
+}
+#para1
+{
+    color:white;
+    font-size:2.5em;
+    font-weight:700;
+    margin-bottom: 1em
+    
+    
+}
+
+#para2{
+    
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    padding-left:1em;
+    font-size:1.5em;
+    padding-right:5em;
+}
+
+.mainsaleforce{
+    background-color:#edf2f4;
+    padding:2em 0;
+
+
+}
+#saleforceheading{
+    font-size:2.5em;
+    font-weight:500;
+}
+#saleforcesdescription
+{
+    font-size:1em;
+}
+#line
+{
+    width:10%;
+    border:2px solid #0096c7;
+    background-color:#0096c7;
+}
+#saleforcewrite
+{
+    font-size:2em;
+}
+.mainsaleforce1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bluesalefore
+{
+    color:#0096c7;
+}
+
+
+.mainsaleforce2
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:5px 10px;
+    margin:7em 0;
+}
+
+ img{
+    height:100%;
+    width:85%;
+    border-radius: 10px;
+}
+.saleforcecontent2
+{
+    padding:0;
+    margin:0;
+   
+    width:25%;
+}
+.saleforcecontent
+{
+    width:50%;
+}
+
+@media (max-width: 1000px) 
+{
+    .mainsaleforce2
+    {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        font-size: .8em;
+        align-items:center;
+    }
+    
+    
+
+}

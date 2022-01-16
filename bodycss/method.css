@@ -51,10 +51,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom:2em;
 }
 #bluesalefore
 {
     color:#0096c7;
+}
+#linemid
+{
+    width:10%;
+    border:2px solid #0096c7;
+    background-color:#0096c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -64,7 +74,7 @@
     flex-direction:row;
     justify-content:space-around;
     padding:5px 10px;
-    margin:7em 0;
+    
 }
 
 #saleimg{
@@ -93,6 +103,61 @@
         justify-content:space-around;
         font-size: .8em;
         align-items:center;
+    }
+
+    #para1
+    {
+        color:white;
+        font-size:1.5em;
+        font-weight:700;
+        margin-bottom: 1em
+        
+        
+    }
+
+    #para2{
+        
+        color:white;
+        font-family: 'Indie Flower', cursive;
+        padding-left:1em;
+        font-size:.8em;
+        padding-right:5em;
+    }
+    #saleforcesdescription
+    {
+        padding:.5em 1em;
+    }
+    #linemid
+    {
+        width:25%;
+        border:2px solid #0096c7;
+        background-color:#0096c7;
+    }
+    .mainsaleforce1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:2em;
+        left:0;
+    }
+    
+    .mainsaleforce2
+    {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+       
+        
+    }
+    .insidesaleforce2 p
+    {
+        font-size:.7em;
+    }
+    .saleforcecontent2 #saleimg
+    {
+        height:100%;
+        width:100%;
     }
     
     
